@@ -1,2 +1,2 @@
 pandas
-https://github.com/owid/owid-grapher-py/archive/v0.1.2.tar.gz
+https://github.com/owid/owid-grapher-py/archive/v0.1.3.tar.gz
