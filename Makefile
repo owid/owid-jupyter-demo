@@ -8,5 +8,4 @@ gen-sample:
 
 gen-full:
 	cd ../owid-grapher-py; \
- 	tail -n 100 ../data/charts.jsonl \
-		| poetry run python -m owid.grapher.notebook /dev/stdin ../owid-jupyter-demo
+	poetry run python -m owid.grapher.notebook ../data/charts.jsonl ../owid-jupyter-demo
